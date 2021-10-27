@@ -31,7 +31,7 @@ async function run() {
             res.send(services)
         })
 
-        //Get Single Service
+        //Get Single Service here
         app.get('/services/:id', async (req, res) => {
             console.log(req.params.id);
             const id = req.params.id;
